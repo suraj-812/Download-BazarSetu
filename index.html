@@ -82,10 +82,11 @@
             margin-bottom: 1.5rem;
         }
 
-        .logo-circle svg {
-            width: 36px;
-            height: 36px;
-            fill: white;
+        .logo-circle img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px;
         }
 
         h1 {
@@ -202,13 +203,12 @@
 
         <div class="logo-container">
             <div class="logo-circle">
-                <svg viewBox="0 0 24 24">
-                    <path d="M12,2L4,5V11C4,16.55 7.84,21.74 12,23C16.16,21.74 20,16.55 20,11V5L12,2M12,11.5L15.5,15L14.08,16.42L12,14.34L9.92,16.42L8.5,15L12,11.5M12,5A3,3 0 0,1 15,8A3,3 0 0,1 12,11A3,3 0 0,1 9,8A3,3 0 0,1 12,5Z" />
-                </svg>
+                <img src="logo.png" alt="BazarSetu Logo">
             </div>
         </div>
 
         <div class="status-badge">
+            <img src="logo.png" alt="Logo" style="width: 16px; height: 16px; border-radius: 4px;">
             <div class="status-dot"></div>
             Latest Version v1.0.4
         </div>
